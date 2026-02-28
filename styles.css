@@ -2508,7 +2508,7 @@ body.modal-open {
         position: sticky;
         bottom: 0;
         z-index: 10001;
-        background: rgba(26, 26, 46, 0.95);
+        background: #917771;
         backdrop-filter: blur(15px);
         border-radius: 15px 15px 0 0;
         box-shadow: 0 -5px 20px rgba(0, 0, 0, 0.3);
