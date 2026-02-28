@@ -1,44 +1,36 @@
 /* Responsive: reducir tamaño en móviles */
 @media (max-width: 600px) {
     body {
-        font-size: 12px;
-        padding: 4px;
+        font-size: 14px;
+        padding: 8px;
     }
-    h1 {
-        font-size: 1.3em;
-    }
-    h2 {
-        font-size: 1.1em;
-    }
-    h3, h4, h5, h6 {
-        font-size: 1em;
+    h1, h2, h3, h4, h5, h6 {
+        font-size: 90%;
     }
     .container, .main, .cart, .index, .content, .header, .footer {
-        padding: 4px;
-        margin: 0 1px;
-        max-width: 100vw;
+        padding: 8px;
+        margin: 0 2px;
+        max-width: 100%;
     }
     img {
-        max-width: 90vw;
+        max-width: 100%;
         height: auto;
-        margin: 0 auto;
-        display: block;
     }
     button, input, select, textarea {
-        font-size: 0.95em;
-        padding: 4px 8px;
+        font-size: 1em;
+        padding: 6px 10px;
     }
     nav, .navbar, .menu {
-        font-size: 85%;
-        padding: 4px;
+        font-size: 90%;
+        padding: 6px;
     }
-    .cart, .index {
-        width: 100vw;
-        font-size: 85%;
+    .cart {
+        width: 100%;
+        font-size: 90%;
     }
-    /* Reduce separación y bordes */
-    * {
-        box-sizing: border-box;
+    .index {
+        width: 100%;
+        font-size: 90%;
     }
     /* Ajusta más clases según sea necesario */
 }
